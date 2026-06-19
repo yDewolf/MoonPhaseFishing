@@ -133,7 +133,7 @@ class ProfileScreen extends StatelessWidget {
             SizedBox(height: 16),
             Text(
               'Clima',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
             ),
           ],
         ),
