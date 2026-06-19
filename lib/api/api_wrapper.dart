@@ -18,7 +18,7 @@ class ApiWrapper {
         Position position = await location_service.getCurrentLocation();
         print('Lat: ${position.latitude}, Lng: ${position.longitude}');
 
-        String today = DateTime.now().toString().split(' ')[0];
+        DateTime today = DateTime.now();
         final dadosDaLua = await usno_api.getMoonData(
           date: today,
           latitude: position.latitude,
@@ -29,7 +29,6 @@ class ApiWrapper {
         return dadosDaLua;
       } catch (e) {
         print('Erro no fluxo: $e');
-        
         return null;
       }
   }
@@ -49,8 +48,8 @@ class ApiWrapper {
       }
       return weather_data;
     } catch (e) {
-      return null;
       print('Erro ao atualizar dados: $e');
+      return null;
     }
   }
 }
