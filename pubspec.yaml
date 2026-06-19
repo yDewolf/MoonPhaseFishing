@@ -9,6 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  dio: ^5.9.2
+  json_annotation: ^4.9.0
+  json_serializable: ^6.11.2
+  build_runner: ^2.15.0
+  geolocator: ^14.0.2
 
 dev_dependencies:
   flutter_test:
