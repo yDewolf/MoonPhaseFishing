@@ -47,19 +47,19 @@ class _MainShellState extends State<MainShell> {
         },
         destinations: const [
           NavigationDestination(
-            icon: Icon(Icons.home_outlined),
-            selectedIcon: Icon(Icons.home),
-            label: 'Início',
+            icon: Icon(Icons.nightlight_outlined),
+            selectedIcon: Icon(Icons.nightlight),
+            label: 'Fases da Lua',
           ),
           NavigationDestination(
-            icon: Icon(Icons.search_outlined),
-            selectedIcon: Icon(Icons.search),
-            label: 'Buscar',
+            icon: Icon(Icons.waves_outlined),
+            selectedIcon: Icon(Icons.waves),
+            label: 'Nível do Mar',
           ),
           NavigationDestination(
-            icon: Icon(Icons.person_outline),
-            selectedIcon: Icon(Icons.person),
-            label: 'Perfil',
+            icon: Icon(Icons.wb_sunny_outlined),
+            selectedIcon: Icon(Icons.wb_sunny),
+            label: 'Clima',
           ),
         ],
       ),
@@ -79,10 +79,10 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(Icons.home, size: 64, color: Colors.deepPurple),
+            Icon(Icons.nightlight, size: 64, color: Colors.deepPurple),
             SizedBox(height: 16),
             Text(
-              'Início',
+              'Fases da Lua',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ],
@@ -104,10 +104,10 @@ class SearchScreen extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(Icons.search, size: 64, color: Colors.deepPurple),
+            Icon(Icons.waves, size: 64, color: Colors.deepPurple),
             SizedBox(height: 16),
             Text(
-              'Buscar',
+              'Nível do Mar',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ],
@@ -129,10 +129,10 @@ class ProfileScreen extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(Icons.person, size: 64, color: Colors.deepPurple),
+            Icon(Icons.wb_sunny, size: 64, color: Colors.deepPurple),
             SizedBox(height: 16),
             Text(
-              'Perfil',
+              'Clima',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ],
