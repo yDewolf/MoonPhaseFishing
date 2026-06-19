@@ -9,7 +9,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
@@ -87,18 +86,11 @@ class HomeScreen extends StatelessWidget {
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ],
-=======
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
->>>>>>> f767d8eaf02ccc89ff8e5e05dbf4471e15fac2f8
         ),
       ),
     );
   }
 }
-<<<<<<< HEAD
 
 // ─── Tela 2: Busca ────────────────────────────────────────────────────────────
 
@@ -149,5 +141,3 @@ class ProfileScreen extends StatelessWidget {
     );
   }
 }
-=======
->>>>>>> f767d8eaf02ccc89ff8e5e05dbf4471e15fac2f8
