@@ -1,5 +1,5 @@
 # fish_phases
 
-A new Flutter project.
+Não deu certo btw, perdemo a competição
 
 API: https://aa.usno.navy.mil/
